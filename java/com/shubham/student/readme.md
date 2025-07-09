@@ -114,7 +114,7 @@ Logging is done on a separate thread so it doesn't interrupt user interaction.\*
 
 ## Code Image for Reference
 
-- ![image alt] (https://github.com/Shubham-Masali76/Student-Management-System/blob/07f08ccd2e7a1c7367ef03af8c69da65b96a677e/Screenshot%20(1).png)
+![My Code Screenshot](https://github.com/Shubham-Masali76/Student-Management-System/blob/ff61eb258b0d875a610f773ca75adf27ffa28b6c/Screenshot%20(1).png)
 
 - **Feel free to fork this project and make it your own. Contributions, suggestions, and ideas are always welcome!**
 
