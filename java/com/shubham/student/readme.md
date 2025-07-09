@@ -17,7 +17,7 @@ The **Student Management System** is a console-based application built using **C
 
 ## Technologies Used
 
-- **Java 17**
+- **Java 17 or 17+**
 - **PostgreSQL 15+**
 - **JDBC 4.2**
 - **Apache Maven 3.8.6+**
@@ -41,7 +41,7 @@ The **Student Management System** is a console-based application built using **C
 
 Ensure the following are installed:
 
-- **Java JDK 17+**
+- **Java JDK 17 or 17+**
 - **Apache Maven 3.8.6+**
 - **PostgreSQL 15+**
 
@@ -63,9 +63,9 @@ Ensure the following are installed:
 
 - com/shubham/student/
   ├── Student.java # Model/POJO class
-  ├── StudentDAO.java # JDBC-based DAO class
-  ├── DBLogger.java # Threaded logger to .log file
-  └── MenuApp.java # Console-based UI and main logic
+  ├── StudentDBManager.java # JDBC-based DAO class
+  ├── StudentDBLogger.java # Threaded logger to .log file
+  └── MainFile.java # Console-based UI and main logic
 
 ---
 
@@ -73,23 +73,23 @@ Ensure the following are installed:
 
 1. **Clone the repository or download the code.**
 2. **Open the project in VS Code, IntelliJ, or Eclipse.**
-3. \*\*In StudentDAO.java, configure your DB credentials:
+3. **In StudentDBManager.java, configure your DB credentials:
    1. private static final String URL = "jdbc:postgresql://localhost:5432/studentdb";
    2. private static final String USER = "postgres";
-   3. private static final String PASSWORD = "yourpassword";\*\*
+   3. private static final String PASSWORD = "yourpassword";**
 4. **Build the project:
    mvn clean install**
-5. **Run MenuApp.java.**
+5. **Run MainFile.java.**
 
 ---
 
 ## Log Output
 
-- \*\*Logs are saved in student-actions.log with timestamps like:
+- **Logs are saved in student-actions.log with timestamps like:
 
 [2025-07-09 14:21:43] Added student: Ramesh Kumar
 [2025-07-09 14:22:01] Deleted student ID: 3
-Logging is done on a separate thread so it doesn't interrupt user interaction.\*\*
+Logging is done on a separate thread so it doesn't interrupt user interaction.**
 
 ---
 
